@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B83B5F51B94701000BE4334 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B83B5F41B94701000BE4334 /* AppDelegate.swift */; };
+		5B83B5F71B94701000BE4334 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B83B5F61B94701000BE4334 /* ViewController.swift */; };
+		5B83B5FA1B94701000BE4334 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B83B5F81B94701000BE4334 /* Main.storyboard */; };
+		5B83B5FC1B94701000BE4334 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B83B5FB1B94701000BE4334 /* Images.xcassets */; };
+		5B83B5FF1B94701000BE4334 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B83B5FD1B94701000BE4334 /* LaunchScreen.xib */; };
+		5B83B60B1B94701000BE4334 /* tutorialConvertImageToBlackAndWhiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B83B60A1B94701000BE4334 /* tutorialConvertImageToBlackAndWhiteTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B83B6051B94701000BE4334 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B83B5E71B94701000BE4334 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B83B5EE1B94701000BE4334;
+			remoteInfo = tutorialConvertImageToBlackAndWhite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B83B5EF1B94701000BE4334 /* tutorialConvertImageToBlackAndWhite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tutorialConvertImageToBlackAndWhite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B83B5F31B94701000BE4334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B83B5F41B94701000BE4334 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B83B5F61B94701000BE4334 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B83B5F91B94701000BE4334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B83B5FB1B94701000BE4334 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B83B5FE1B94701000BE4334 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5B83B6041B94701000BE4334 /* tutorialConvertImageToBlackAndWhiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tutorialConvertImageToBlackAndWhiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B83B6091B94701000BE4334 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B83B60A1B94701000BE4334 /* tutorialConvertImageToBlackAndWhiteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tutorialConvertImageToBlackAndWhiteTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B83B5EC1B94701000BE4334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B83B6011B94701000BE4334 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B83B5E61B94701000BE4334 = {
+			isa = PBXGroup;
+			children = (
+				5B83B5F11B94701000BE4334 /* tutorialConvertImageToBlackAndWhite */,
+				5B83B6071B94701000BE4334 /* tutorialConvertImageToBlackAndWhiteTests */,
+				5B83B5F01B94701000BE4334 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B83B5F01B94701000BE4334 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B83B5EF1B94701000BE4334 /* tutorialConvertImageToBlackAndWhite.app */,
+				5B83B6041B94701000BE4334 /* tutorialConvertImageToBlackAndWhiteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B83B5F11B94701000BE4334 /* tutorialConvertImageToBlackAndWhite */ = {
+			isa = PBXGroup;
+			children = (
+				5B83B5F41B94701000BE4334 /* AppDelegate.swift */,
+				5B83B5F61B94701000BE4334 /* ViewController.swift */,
+				5B83B5F81B94701000BE4334 /* Main.storyboard */,
+				5B83B5FB1B94701000BE4334 /* Images.xcassets */,
+				5B83B5FD1B94701000BE4334 /* LaunchScreen.xib */,
+				5B83B5F21B94701000BE4334 /* Supporting Files */,
+			);
+			path = tutorialConvertImageToBlackAndWhite;
+			sourceTree = "<group>";
+		};
+		5B83B5F21B94701000BE4334 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B83B5F31B94701000BE4334 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B83B6071B94701000BE4334 /* tutorialConvertImageToBlackAndWhiteTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B83B60A1B94701000BE4334 /* tutorialConvertImageToBlackAndWhiteTests.swift */,
+				5B83B6081B94701000BE4334 /* Supporting Files */,
+			);
+			path = tutorialConvertImageToBlackAndWhiteTests;
+			sourceTree = "<group>";
+		};
+		5B83B6081B94701000BE4334 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B83B6091B94701000BE4334 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B83B5EE1B94701000BE4334 /* tutorialConvertImageToBlackAndWhite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B83B60E1B94701000BE4334 /* Build configuration list for PBXNativeTarget "tutorialConvertImageToBlackAndWhite" */;
+			buildPhases = (
+				5B83B5EB1B94701000BE4334 /* Sources */,
+				5B83B5EC1B94701000BE4334 /* Frameworks */,
+				5B83B5ED1B94701000BE4334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tutorialConvertImageToBlackAndWhite;
+			productName = tutorialConvertImageToBlackAndWhite;
+			productReference = 5B83B5EF1B94701000BE4334 /* tutorialConvertImageToBlackAndWhite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B83B6031B94701000BE4334 /* tutorialConvertImageToBlackAndWhiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B83B6111B94701000BE4334 /* Build configuration list for PBXNativeTarget "tutorialConvertImageToBlackAndWhiteTests" */;
+			buildPhases = (
+				5B83B6001B94701000BE4334 /* Sources */,
+				5B83B6011B94701000BE4334 /* Frameworks */,
+				5B83B6021B94701000BE4334 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B83B6061B94701000BE4334 /* PBXTargetDependency */,
+			);
+			name = tutorialConvertImageToBlackAndWhiteTests;
+			productName = tutorialConvertImageToBlackAndWhiteTests;
+			productReference = 5B83B6041B94701000BE4334 /* tutorialConvertImageToBlackAndWhiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B83B5E71B94701000BE4334 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = DevApp;
+				TargetAttributes = {
+					5B83B5EE1B94701000BE4334 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					5B83B6031B94701000BE4334 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 5B83B5EE1B94701000BE4334;
+					};
+				};
+			};
+			buildConfigurationList = 5B83B5EA1B94701000BE4334 /* Build configuration list for PBXProject "tutorialConvertImageToBlackAndWhite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B83B5E61B94701000BE4334;
+			productRefGroup = 5B83B5F01B94701000BE4334 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B83B5EE1B94701000BE4334 /* tutorialConvertImageToBlackAndWhite */,
+				5B83B6031B94701000BE4334 /* tutorialConvertImageToBlackAndWhiteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B83B5ED1B94701000BE4334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B83B5FA1B94701000BE4334 /* Main.storyboard in Resources */,
+				5B83B5FF1B94701000BE4334 /* LaunchScreen.xib in Resources */,
+				5B83B5FC1B94701000BE4334 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B83B6021B94701000BE4334 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B83B5EB1B94701000BE4334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B83B5F71B94701000BE4334 /* ViewController.swift in Sources */,
+				5B83B5F51B94701000BE4334 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B83B6001B94701000BE4334 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B83B60B1B94701000BE4334 /* tutorialConvertImageToBlackAndWhiteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B83B6061B94701000BE4334 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B83B5EE1B94701000BE4334 /* tutorialConvertImageToBlackAndWhite */;
+			targetProxy = 5B83B6051B94701000BE4334 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B83B5F81B94701000BE4334 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B83B5F91B94701000BE4334 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B83B5FD1B94701000BE4334 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B83B5FE1B94701000BE4334 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B83B60C1B94701000BE4334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B83B60D1B94701000BE4334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B83B60F1B94701000BE4334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tutorialConvertImageToBlackAndWhite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B83B6101B94701000BE4334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tutorialConvertImageToBlackAndWhite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5B83B6121B94701000BE4334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = tutorialConvertImageToBlackAndWhiteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tutorialConvertImageToBlackAndWhite.app/tutorialConvertImageToBlackAndWhite";
+			};
+			name = Debug;
+		};
+		5B83B6131B94701000BE4334 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = tutorialConvertImageToBlackAndWhiteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tutorialConvertImageToBlackAndWhite.app/tutorialConvertImageToBlackAndWhite";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B83B5EA1B94701000BE4334 /* Build configuration list for PBXProject "tutorialConvertImageToBlackAndWhite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B83B60C1B94701000BE4334 /* Debug */,
+				5B83B60D1B94701000BE4334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B83B60E1B94701000BE4334 /* Build configuration list for PBXNativeTarget "tutorialConvertImageToBlackAndWhite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B83B60F1B94701000BE4334 /* Debug */,
+				5B83B6101B94701000BE4334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B83B6111B94701000BE4334 /* Build configuration list for PBXNativeTarget "tutorialConvertImageToBlackAndWhiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B83B6121B94701000BE4334 /* Debug */,
+				5B83B6131B94701000BE4334 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B83B5E71B94701000BE4334 /* Project object */;
+}
